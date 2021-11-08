@@ -1,0 +1,10 @@
+{
+  "name": "ttog-mern-boiler",
+  "version": "1.0.0",
+  "description": "TTOG Specific MERN Boiler",
+  "main": "index.js",
+  "repository": "https://github.com/troveofgems/ttog_mern_boiler.git",
+  "author": "Dustin Kent Greco <dkgreco@thetroveofgems.tech>",
+  "license": "MIT",
+  "private": true
+}
