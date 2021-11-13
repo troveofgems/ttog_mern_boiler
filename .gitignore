@@ -2,10 +2,12 @@
 .idea/
 
 # Developer Specific
-sandbox/
+sandbox/concepts/*
 
 # Logs
-logs
+logs/dev/*
+logs/error/*
+logs/test/*
 *.log
 npm-debug.log*
 yarn-debug.log*

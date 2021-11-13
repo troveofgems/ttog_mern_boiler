@@ -6,5 +6,11 @@
   "repository": "https://github.com/troveofgems/ttog_mern_boiler.git",
   "author": "Dustin Kent Greco <dkgreco@thetroveofgems.tech>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "bumpProjectVersion": "VERSION=$(npm version patch) echo $VERSION | git tag $VERSION && git push --tags",
+    "bumpClientVersion": "echo Configure Client Bump Version Here",
+    "bumpServerVersion": "echo Configure Server Bump Version Here",
+    "fullProjectDev": "echo Configure Concurrently Here"
+  }
 }
