@@ -4,7 +4,7 @@ module.exports.mountRouterToApplication = Application => {
     eb_designator = process.env.API_DESIGNATOR || '/api/',
     eb_apiVersion = process.env.API_VERSION || 'v1',
     eb_apiPrefix = `${eb_designator}${eb_apiVersion}`,
-    backend_apiRoutes = ['sanityChecks'],
+    backend_apiRoutes = ['sanityChecks', 'authentorization'],
     ef_designator = process.env.EFE_DESIGNATOR || '/efe/',
     ef_Version = process.env.EFE_VERSION || 'v1',
     ef_prefix = `${ef_designator}${ef_Version}`,

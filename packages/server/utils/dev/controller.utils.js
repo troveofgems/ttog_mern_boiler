@@ -4,7 +4,7 @@ module.exports.buildAPIBodyResponse = callSignature => {
   let baseObject = {
     success: null,
     error: null,
-    data: {}
+    data: null
   }
 
   if (IS_NOT_PRODUCTION) {
